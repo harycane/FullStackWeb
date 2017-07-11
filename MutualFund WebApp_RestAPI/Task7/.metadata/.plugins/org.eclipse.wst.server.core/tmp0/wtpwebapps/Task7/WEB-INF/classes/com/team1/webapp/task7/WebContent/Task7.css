@@ -1,0 +1,112 @@
+body {margin:0;}
+
+ol, ul {
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+#header {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: midnightblue;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+#logo{
+    float: left;
+    display: block;
+    color: white;
+    padding: 16px;
+    margin-left: 20px;
+}
+
+#showLogin{
+    float: right;
+    display: block;
+    color: white;
+    padding: 16px;
+    margin-right: 20px;
+}
+
+#nav-bar {
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+}
+
+.nav-item{
+	text-align: center;
+	padding: 20px;
+	border: 2px solid #555;
+}
+#center-panel-1{
+    top: 50%;
+    left: 50%;
+    width: 20em;
+    height:18em;
+    margin-top: -9em; 
+    margin-left: -15em; 
+    border: 2px solid grey;
+    background-color: rgba(220,220,220,0.8);
+    position:fixed;
+    text-align: center;
+}
+
+#center-panel-1 table {
+	padding: 10px;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+#center-panel-1 table td{
+	padding-top: 1em;
+}
+
+#center-panel-2{
+    top: 50%;
+    left: 60%;
+    width: 20em;
+    height:18em;
+    margin-top: -9em; 
+    margin-right: -15em; 
+    border: 2px solid grey;
+    background-color: rgba(220,220,220,0.8);
+    position:fixed;
+    text-align: center;
+}
+
+#center-panel-2 table {
+	padding: 10px;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+#center-panel-2 table td{
+	padding-top: 1em;
+}
+
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #efefef;
+  text-align: center;
+}
+
+footer ul li{
+	float: center;
+}
+
+footer ul li a{
+    padding: 100px;
+}

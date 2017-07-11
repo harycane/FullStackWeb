@@ -1,0 +1,58 @@
+package com.team1.webapp.task7.databean;
+
+import org.genericdao.PrimaryKey;
+import java.lang.String;
+import java.sql.Date;
+
+@PrimaryKey("transactionid")
+public class TransactionBean {
+	private int transactionid;
+	private int customerid;
+	private int fundid;
+	private date executedate;
+	private int shares;
+	private String transtype;
+	private int amount;
+	
+	public int getTransactionid() {
+	     return transactionid;
+	 }
+	 public void setTransactionid(int i) {
+	     transactionid = i;
+	 }
+	
+	 public int getCustomerid() {
+	     return customerid;
+	 }
+	 public void setCustomerid(int i) {
+	     customerid = i;
+	 }
+	 
+	 public int getFundid() {
+	     return fundid;
+	 }
+	 public void setFundid(int i) {
+	     fundid = i;
+	 }
+	 
+	 public String getTranstype()        { return transtype; }
+	 public void setTranstype(String s)  { transtype = s;    }
+	 
+	 public int getShares() {
+	     return shares;
+	 }
+	 public void setShares(int i) {
+	     shares = i;
+	 }
+	 
+	 public String getTranstype()        { return transtype; }
+	 public void setTranstype(String s)  { transtype = s;    }
+	 
+	 public int getAmount() {
+	     return amount;
+	 }
+	 public void setAmount(int i) {
+	     amount = i;
+	 }
+
+}

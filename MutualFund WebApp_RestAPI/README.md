@@ -1,0 +1,3 @@
+# FullStackWebAppMVC
+Built a Dynamic J2EE Mutual Fund Web Application accessible to buy/sell funds etc. I implemented the transition day use case, carrying out the CRUD operations of the pending transactions based on the closing fund price, handling concurrency using generic Dao’s Database Transactions. Wrote a custom comparator classes to retrieve, sort and display transactions history. Wrote defensive code to handle HTML and SQL injection attacks. Cloud Deployed the web application using AWS EC2 instance.
+Exposed the functionality of the mutual fund web application we built by implementing a RESTful Web Service API in Java using the Jersey Framework. Tested acceptance of the system using an Artillery script.

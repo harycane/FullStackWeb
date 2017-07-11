@@ -1,0 +1,259 @@
+body {
+    margin:0;
+    background-color: lug
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#header {
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: midnightblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    float: left;
+    display: inline-block;
+    color: white;
+    padding: 16px;
+    margin-left: 20px;
+}
+
+.showLogin{
+    float: right;
+    display: inline-block;
+    color: white;
+    padding: 16px;
+    margin-right: 20px;
+}
+
+/*main {
+    position:relative;
+    top: 100px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow-y:scroll;    
+}*/
+
+#nav-bar {
+    float: left;
+    top: 100px;
+    margin:0 auto; 
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 20%;
+    min-height: 200px;
+    border-right: 2px solid #aaa;
+}
+
+.nav-item{
+    text-align: center;
+    padding: 15px;
+    margin: 0px;
+    border-bottom: 2px solid #aaa;
+}
+
+#main{
+    width: 80%;
+    margin: 100px auto;
+    max-width: 1200px;
+    float: right;
+    background-color: white;
+}
+#main-no-nav{
+    width: 100%;
+    margin: 100px auto;
+    max-width: 1200px;
+    background-color: white;
+    text-align: center;
+}
+.notification{
+    width: 100%;
+    height:100%;
+    text-align: center;
+    padding-top: 10%;
+}
+.panel{
+    background-color: #f7f7fb;
+    margin: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.search-bar{
+    padding: 20px 10px;
+}
+.search-result{
+    padding: 20px 25px;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    background-color: white;
+
+}
+
+.panel-left {
+    width: 40%;
+    height: 100%;
+    padding: 20px 25px;
+    min-height: 120px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    float: left;
+
+}
+
+
+.panel-left .form-group {
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.form-group input{
+    float: right;
+
+}
+
+.btn{
+    margin-top: 19px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    width: 8em;
+    height: 1.7em;
+    vertical-align: middle;
+    background-color: lightgrey;
+    border: none;
+
+}
+
+.panel-right {
+    width: 40%;
+    height: 100%;
+    padding: 20px 25px;
+    min-height: 120px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    float: right;
+}
+
+.panel-profile{
+    padding: 20px 25px;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.content p{
+    font-size: 16px;
+}
+
+.panel-history{
+    padding: 20px 25px;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+table {
+    border-spacing: 0px;
+    border-right: 2px solid lightgrey; 
+}
+
+
+
+.table td{
+    font-size: 20px;
+    padding: 5px 20px;
+    border-left: 2px solid lightgrey;
+    border-spacing: 0px;
+
+}
+
+.notification{
+    left: 40%;
+    float: left;
+}
+
+/*
+#center-panel-2{
+    top: 50%;
+    left: 60%;
+    width: 20em;
+    min-height:18em;
+    margin-top: -9em; 
+    margin-right: -15em; 
+    border: 2px solid grey;
+    background-color: rgba(220,220,220,0.8);
+    position:fixed;
+    text-align: center;
+    font-size: 18px;
+}
+
+#center-panel-2 table {
+    padding: 10px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#center-panel-2 table td{
+    padding-top: .5em;
+    padding-bottom: .5em;
+}*/
+
+#buttom{
+    vertical-align: middle;
+}
+input {
+    font-size: 18px;
+}
+
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #efefef;
+  text-align: center;
+}
+
+footer ul li{
+    float: center;
+}
+table{
+    margin: 0;
+}
+
+footer ul li a{
+    padding: 100px;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sell Fund</title>
+        <link rel="stylesheet" type="text/css" href="Task7.css">
+    </head>   
+    <body>
+    <header>
+    	<div id="header">
+    	<div class="logo">
+        <h2>Carnegie Financial Services</h2>
+    	</div>
+        <div class= "showLogin">
+        <h4> Hi, Firstname! </h4>
+        </div>
+    	</div>
+    </header>
+    <div class="siderbar">
+    <nav>
+        <ul id= "nav-bar">
+            <li class="nav-item">
+                <a href="ChangePassword.do"> Change Password </a>
+            </li>
+            <li class="nav-item">
+                <a href="BuyFund.do"> Buy Fund </a>
+            </li>
+            <li class="nav-item">
+                <a href="Sell Fund.do"> Sell Fund </a>
+            </li>
+            <li class="nav-item">
+                <a href="RequestCheck.do"> Request Check </a>
+            </li>
+            <li class="nav-item">
+                <a href="ViewTransactionHistory.do">View Transaction History </a>
+            </li>
+            <li class="nav-item">
+                <a href="Logout.do"> Logout </a>
+            </li>
+        </ul>
+    </nav>
+    </div>
+    <!-- end side bar -->
+    <!-- main -->
+    <div id="main">
+        <div class="panel">
+            <div class="search-bar">
+                <label>Fund Name/Id: </label>
+                <input type="text" name="searchFund"> 
+                <input class="btn" name="searchBtn" type="submit" value="Search">
+            </div>
+            <div class="search-result">
+            Retrieve data
+            </div>
+
+             <!-- Research Panel End -->
+             <!-- Buy Fund Panel Start -->
+
+            <div class="panel-left">
+                <div class="content">
+                    <div class="title">
+                        <h2> Buy Fund </h2>
+                    </div>
+                    <form method="post" action="login.do">
+                        <div class="form-group">
+                            <label for="fundId" class="label">Fund Id: </label>
+                            <input type="text" class="input" name= "fundId" >
+                        </div>
+                        <div class="form-group">
+                            <label for="amount" class="label">Amount: </label>
+                            <input type="text" class="input" name="amount">
+                        </div>
+                        <div>
+                        <input class="btn" name="buyFund" type="submit" value="Buy It!"> 
+                        </div> 
+                    </form>
+                </div> 
+            </div>
+            <div class="panel-right">
+                <div class="content">
+                    <div class="title">
+                        <h2> Cash Balance </h2>
+                    </div>
+                    <div class="cashAmount">
+                        display data
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+	<footer>
+        <p>©2017. All Rights Reserved By Team 1</p>  
+        <nav>
+            <ul>
+                <li><a href="#">Terms of Use</a> <a href="#">Privacy Policy</a></li>
+            </ul>
+        </nav>  
+    </footer>
+    </body>
