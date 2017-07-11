@@ -1,0 +1,2 @@
+# BookMarkWebAppMVC
+Built a "Favorites" Website. Registered users of the site will be able to login and then maintain a list of "favorite" websites that they think are interesting. Other people (registered or not) will then be able to go to the site to browse other people's "favorite" lists. When a visitor clicks on a favorite, increment the click-count for the favorite and then open the URL referenced in the favorite.
